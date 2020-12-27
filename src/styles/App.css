@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  padding: 10px 30px;
+  border-bottom: 1px solid black;
+}
+
+.site-name-link {
+  font-size: 48px;
+  color: #303030;
+  text-decoration: none;
+}
