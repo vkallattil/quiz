@@ -9,23 +9,25 @@ function App() {
   return (
     <Router>
       <header className='header'>
-        <nav>
-          <Link to='/' className='site-name-link'>
-            Quizzes
-          </Link>
+        <Link to='/' className='site-name-link'>
+          Quizzes
+        </Link>
+        <nav className='nav-bar'>
           <Link to='/profile' className='nav-link'>
             Profile
           </Link>
         </nav>
       </header>
-      <Switch>
-        <Route path='/'>
-          <Home />
-        </Route>
-        <Route path='/profile'>
-          <Profile />
-        </Route>
-      </Switch>
+      <div className='main'>
+        <Switch>
+          <Route path='/profile'>
+            <Profile />
+          </Route>
+          <Route path='/'>
+            <Home />
+          </Route>
+        </Switch>
+      </div>
     </Router>
   );
 }

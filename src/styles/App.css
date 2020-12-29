@@ -1,11 +1,32 @@
 .header {
   display: flex;
   padding: 10px 30px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ff7474;
+}
+
+.nav-bar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .site-name-link {
   font-size: 48px;
+  font-weight: bold;
+  color: #ff7474;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.nav-link {
+  font-size: 24px;
+  font-weight: bold;
   color: #303030;
   text-decoration: none;
+  margin-right: 15px;
+}
+
+.main {
+  padding: 20px 90px;
 }

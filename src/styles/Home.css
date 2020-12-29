@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+}
