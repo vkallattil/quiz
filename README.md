@@ -1,3 +1,7 @@
+# Quiz Hosting Platform
+
+This repository hosts the source code for the quiz sharing React client I created. This is different from the Apollo GraphQL API, which is hosted in a separate repository.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
